@@ -129,4 +129,43 @@ img {
  ************************************************/
 
 
- 
+ /* _____fixed visualizzazione desktop________ */
+
+@media screen and (max-width: 1160px) {
+
+    .container {
+        width: 80%;
+    }
+}
+
+
+
+
+
+/* ________visualizzazione tablet____________ */
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* __________visualizzazione smartphone__________ */
+
+@media screen and (max-width: 480px) {
+
+    .container .row {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .container .row .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}

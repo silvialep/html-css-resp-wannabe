@@ -129,14 +129,13 @@ img {
  ************************************************/
 
 
- /* _____fixed visualizzazione desktop________ */
+ /* _____visualizzazione desktop________ */
 
-@media screen and (max-width: 1160px) {
 
-    .container {
-        width: 80%;
-    }
+.container {
+    width: 80%;
 }
+
 
 
 
@@ -167,5 +166,16 @@ img {
     .container .row .col {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .why-us {
+        background-color: rgb(34, 34, 34);
+        margin-bottom: 0;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .steps {
+        margin-bottom: 0;
     }
 }
